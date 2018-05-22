@@ -411,5 +411,22 @@ gradle-app.setting
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
 
+### VirtualEnv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Mm]an
+[Ss]cripts
+[Tt]cl
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+ENV
+
 
 # End of https://www.gitignore.io/api/osx,vim,emacs,python,gradle,windows,pycharm,eclipse,pycharm+all
