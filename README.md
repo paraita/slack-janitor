@@ -20,6 +20,12 @@ But it can be more convenient to install the janitor on your system:
 python setup.py install
 ```
 
+Or even:
+
+```
+pip install slack-janitor-tool
+```
+
 ## Usage
 
 The Slack Janitor requires a Slack Token that can be retrieve [here](https://api.slack.com/custom-integrations/legacy-tokens). You'll need to pass it the janitor either by using the `-t` flag or filling the `SLACK_TOKEN` variable in your session.

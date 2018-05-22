@@ -2,7 +2,7 @@
 
 from setuptools import setup
 
-setup(name='slack_janitor',
+setup(name='slack_janitor_tool',
       version='1.0',
       python_requires='>3.5.0',
       description='Your stubborn Slack Cleaning tool',
